@@ -1,0 +1,38 @@
+﻿public void ExecutePenButton()
+        {
+            if(Pens>1)
+                Pens -= 1;
+           
+        }
+        public Boolean CanExecutePenButton()
+        {
+            return true;
+        }
+
+        public void ExecutePencilButton()
+        {
+           
+            Pencils -= 1;
+        }
+        public Boolean CanExecutePencilButton()
+        {
+            return true;
+        }
+
+        public void ExecutePaintButton()
+        {
+            Paints -= 1;
+        }
+        public Boolean CanExecutePaintButton()
+        {
+            return true;
+        }
+
+        public void ExecuteSketchPenButton()
+        {
+            SketchPens -= 1;
+        }
+        public Boolean CanExecuteSketchPenButton()
+        {
+            return true;
+        }
